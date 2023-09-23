@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'montserrat alternates', sans-serifm;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.contenedor-header{
+    background: #c4b974;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.contenedor-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.contenedor-header header .logo a{
+    font-family: 'montserrat alternates';
+    font-size: 36px;
+    color:#3d2727;
+    text-decoration: none;
+}
+.contenedor-header ul{
+    display: flex;
+    list-style: none;
+}
+.contenedor-header nav ul li a{
+    text-align: none;
+    color: #000;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+.contenedor-header header nav ul li a:hover{
+    color: #fff;
+}
+.nav-responsive{
+    background-color: #1D1D1B;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 30px  10px 30px 10px;
+    cursor: pointer;
+    display: none;
+    transition: .5s;
+}
+.inicio{
+    background: linear-gradient( to top, rgba(17, 19, 20, 0.8), rgb(24, 25, 26)), 
+    url(img/ACID.gif);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.inicio .contenido-banner{
+    padding: 50px;
+    background-color: #1D1D1B;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+.inicio .contenido-banner img{
+    margin-top: 40px;
+    border: 10px solid #1D1D1B;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+.inicio .contenido-banner h1{
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: 'montserrat alternates', sans-serif;
+}
+.inicio .contenido-banner h2{
+    font-size: 15px;
+    font-weight: normal;
+}
+.inicio .contenido-banner .redes a{
+    color: #BA181B;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+.inicio .contenido-banner .redes a:hover{
+    background-color: #fff;
+}
